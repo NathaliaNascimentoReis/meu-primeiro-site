@@ -63,3 +63,12 @@ footer p {
     font-family: Calibri;
     font-size: 17px;
 }
+
+<section id="meus-hobbies">
+    <h3 id="titulo-meus-hobbies">Meus Hobbies</h3>
+    <ul>
+        <li>Ouvir Newjeans</li>
+        <li>Ler</li>
+        <li>Assistir vídeos no Youtube</li>
+    </ul>
+</section>
