@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+/* RESET DO CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(137, 182, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    background-color: rgb(238, 231, 223);
+    padding: 48px 38px;
+}
+
+footer {
+    background-color: rgb(218, 201, 181);
+    color: rgb (146, 97, 75);
+    text-align: center;
+    padding: 0.1rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+#sobre-mim {
+    font-size: 25px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#titulo-sobre-mim {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    color: rgb(146, 97, 75);
+    margin-bottom: 16px;
+    border-bottom: 2px solid rgb(218, 201, 181);
+}
+
+.texto-sobre-mim {
+    font-family: Calibri;
+    font-size: 17px;
+}
