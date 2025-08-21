@@ -64,11 +64,38 @@ footer p {
     font-size: 17px;
 }
 
-<section id="meus-hobbies">
-    <h3 id="titulo-meus-hobbies">Meus Hobbies</h3>
-    <ul>
-        <li>Ouvir Newjeans</li>
-        <li>Ler</li>
-        <li>Assistir vídeos no Youtube</li>
-    </ul>
-</section>
+#contato {
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#contato h3 {
+    text-align: center;
+    color: rgb(146, 97, 75);
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+#contato p {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 17px
+}
+
+#contato a {
+    color: rgb(137, 182, 201);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#contato a:hover {
+    color: rgb(218, 201, 181);
+    transform: translateY(2px);
+}
