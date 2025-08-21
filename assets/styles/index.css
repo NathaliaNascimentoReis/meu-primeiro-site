@@ -99,3 +99,31 @@ footer p {
     color: rgb(218, 201, 181);
     transform: translateY(2px);
 }
+
+#pagina-de-testes {
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+#pagina-de-testes h3 {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+} 
+
+#pagina-de-testes a {
+    color: rgb(137, 182, 201);
+    text-decoration: none;
+    transition: all 0.3 ease;
+}
+
+#pagina-de-testes a:hover {
+    color: rgb(218, 201, 181);
+    transform: translateY(2px);
+}
